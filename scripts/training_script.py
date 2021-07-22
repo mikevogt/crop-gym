@@ -18,6 +18,7 @@ def train(name, log_dir, tensorboard_dir, beta, n_steps, resume):
     name: string, model name
     log_dir: directory where the model will be saved
     tensorboard_dir: directory where the tensorboard data will be saved
+    env_dir: directory where the environment data will be saved
     beta: float, penalty for fertilization application
     n_steps: int, number of timesteps the agent spends in the environment
     resume: bool, indicates continuation from previous training run
